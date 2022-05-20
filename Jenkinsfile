@@ -8,7 +8,7 @@ pipeline {
       }
     }
     stages {
-        stage('Build') {
+        stage('No build') {
             steps {
                 echo '<--------------- Building --------------->'
                 sh 'printenv'
