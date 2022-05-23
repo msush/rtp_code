@@ -3,7 +3,7 @@ def registry  = 'https://stalin.jfrog.io'
 def app
 pipeline {
     agent any
-    }
+    
     stages {
         stage('build') {
             steps {
